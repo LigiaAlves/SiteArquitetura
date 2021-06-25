@@ -1,0 +1,115 @@
+*{
+
+    padding:0;
+    margin:0;
+
+}
+
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    
+  }
+
+.menu_home{
+    margin: 0 auto; 
+    width: 1170px;
+}
+
+.menu_home ul{
+    margin: 0px;
+    padding: 80px;
+    list-style: none;
+    text-align: right;
+
+}
+
+.menu_home ul li{
+   float: none;
+   display: inline-block;
+   
+}
+.menu_home ul li:nth-child(1){
+    float: left;
+
+}
+.menu_home ul li:nth-child(2){
+    float: left;
+
+}
+.menu_home ul li:nth-child(3){
+    float: right;
+
+}
+
+.menu_home ul li a{
+    color: #262626;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+
+
+}
+
+.menu_home ul li a:hover{
+    color: #6f6f6f;
+
+}
+
+#menu {
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content:"";
+    margin-left: -150px;
+
+}
+
+#rolagem{
+    height: 700px;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.caixa-miniatura {
+    border: 1px solid ;
+    width: 100px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px;
+    overflow:hidden;
+    height: 57px;
+}
+
+#miniaturas{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    border-top: thin solid ;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+

@@ -1,0 +1,128 @@
+*{
+
+    padding:0;
+    margin:0;
+
+}
+
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    
+  }
+
+.menu_home{
+    margin: 0 auto; 
+    width: 1170px;
+}
+
+.menu_home ul{
+    margin: 0px;
+    padding: 80px;
+    list-style: none;
+    text-align: right;
+
+}
+
+.menu_home ul li{
+   float: none;
+   display: inline-block;
+   
+}
+.menu_home ul li:nth-child(1){
+    float: left;
+
+}
+.menu_home ul li:nth-child(2){
+    float: left;
+
+}
+.menu_home ul li:nth-child(3){
+    float: right;
+
+}
+
+.menu_home ul li a{
+    color: #262626;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+
+
+}
+
+.menu_home ul li a:hover{
+    color: #6f6f6f;
+
+}
+
+#menu {
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content:"";
+    margin-left: -150px;
+
+}
+
+.galeria{
+    margin: 2px auto;
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1) ;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1){
+
+}
+
+.foto:nth-child(2){
+    animation-delay: 3s;
+    
+}
+
+.foto:nth-child(3){
+    animation-delay: 6s;
+    
+}
+
+.foto:nth-child(4){
+    animation-delay: 9s;
+    
+}
+
+
+
+
+
+
